@@ -1,5 +1,6 @@
 #include "stack.h"
 #include <iostream>
+#include "LinkedList.cpp"
 using namespace std;
 const  int Max_size = 100;
 class stack
@@ -54,17 +55,11 @@ public:
 
 int main() {
 
-	stack s;
-	s.push(5);
-	s.push(6);
-	s.push(7);
-	s.push(8);
-	s.push(8);
-	s.push(9);
-	s.push(1);
-	s.push(2);
-	s.print();
-	int y=0;
-	s.TopElement(y);
 
+
+	LinkedList<int> c;
+	c.push(100);
+	c.push(200);
+
+	c.dispalay();
 }
